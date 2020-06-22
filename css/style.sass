@@ -1,0 +1,70 @@
+$font-text: 'Playfair Display', serif
+
+@font-face
+  font-family: 'Denistina'
+  src: url("/fonts/8591.ttf") format('truetype')
+$font-name: 'Denistina'
+
+.main
+  text-align: -webkit-center
+  .info
+    background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center
+    position: relative
+    height: 570px
+    width: 430px
+    left: 70px
+    top: 40px
+    box-shadow: -5px 8px 20px 9px rgba(109,109,109,0.21)
+    .vertical-text
+      position: absolute
+      top: 2.5em
+      font-family: $font-text
+      font-weight: 500
+      font-size: 15px
+      writing-mode: tb-rl
+      letter-spacing: 6px
+    .main-info
+      position: absolute
+      bottom: 1em
+      text-align: end
+      right: 20px
+      h1
+        font-family: $font-name
+        font-size: 66px
+      .main-text
+        .date
+          font-family: $font-text
+          font-size: 30px
+          font-weight: 400
+          margin-bottom: 4px
+          span
+            font-size: 20px
+            font-weight: 500
+        p
+          font-family: $font-text
+          font-weight: 400
+          line-height: 21px
+          margin-top: 0
+      .signature
+        font-family: $font-text
+        font-size: 18px
+        font-weight: 400
+        span
+          font-weight: 500
+          font-size: 19px
+    .bg
+      position: absolute
+      z-index: -1
+      right: 57px
+      top: 57px
+      box-shadow: -9px 14px 29px -9px rgba(109,109,109,0.7)
+    .twig
+      width: 305px
+      position: absolute
+      top: 287px
+      right: 282px
+      transform: rotate(-28deg)
+
+
+
+
