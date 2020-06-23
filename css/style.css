@@ -8,7 +8,7 @@
 .main .info {
   background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center;
   position: relative;
-  height: 900px;
+  height: 920px;
   width: 755px;
   left: 58px;
   top: 220px;
@@ -16,19 +16,20 @@
 }
 .main .info .vertical-text {
   position: absolute;
-  top: 2.5em;
+  top: 2em;
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: 35px;
   writing-mode: vertical-lr;
   letter-spacing: 6px;
   transform: scale(-1);
+  margin-left: 23px;
 }
 .main .info .main-info {
   position: absolute;
   bottom: 2.5em;
   text-align: end;
-  right: 45px;
+  right: 30px;
 }
 .main .info .main-info h1 {
   font-family: "Denistina";
@@ -43,16 +44,12 @@
   font-weight: 600;
   margin-bottom: 23px;
 }
-.main .info .main-info .main-text .date span {
-  font-size: 34px;
-  font-weight: 500;
-}
 .main .info .main-info .main-text p {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  line-height: 39px;
+  line-height: 40px;
   margin-top: 0;
-  font-size: 31px;
+  font-size: 32px;
 }
 .main .info .main-info .signature {
   font-family: "Playfair Display", serif;
