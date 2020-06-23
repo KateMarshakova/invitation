@@ -2,7 +2,8 @@ $font-text: 'Playfair Display', serif
 
 @font-face
   font-family: 'Denistina'
-  src: url("/fonts/8591.ttf") format('truetype')
+  src: url("../fonts/8591.ttf") format('truetype')
+
 $font-name: 'Denistina'
 
 .main
@@ -10,62 +11,65 @@ $font-name: 'Denistina'
   .info
     background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center
     position: relative
-    height: 570px
-    width: 430px
-    left: 70px
-    top: 40px
+    height: 870px
+    width: 730px
+    left: 58px
+    top: 71px
     box-shadow: -5px 8px 20px 9px rgba(109,109,109,0.21)
     .vertical-text
       position: absolute
       top: 2.5em
       font-family: $font-text
       font-weight: 500
-      font-size: 15px
-      writing-mode: tb-rl
+      font-size: 30px
+      writing-mode: vertical-lr
       letter-spacing: 6px
       transform: scale(-1)
     .main-info
       position: absolute
-      bottom: 1em
+      bottom: 2.5em
       text-align: end
-      right: 20px
+      right: 45px
       h1
         font-family: $font-name
-        font-size: 66px
+        font-size: 110px
+        margin-bottom: 18px
+        font-weight: bold
+        padding-right: 17px
       .main-text
         .date
           font-family: $font-text
-          font-size: 30px
-          font-weight: 400
-          margin-bottom: 4px
+          font-size: 50px
+          font-weight: 600
+          margin-bottom: 16px
           span
-            font-size: 20px
+            font-size: 32px
             font-weight: 500
         p
           font-family: $font-text
           font-weight: 400
-          line-height: 21px
+          line-height: 29px
           margin-top: 0
+          font-size: 24.5px
       .signature
         font-family: $font-text
-        font-size: 18px
+        font-size: 26px
         font-weight: 400
         span
           font-weight: 500
-          font-size: 19px
+          font-size: 31px
     .bg
       position: absolute
       z-index: -1
-      right: 57px
-      top: 57px
+      right: 65px
+      top: 65px
       box-shadow: -9px 14px 29px -9px rgba(109,109,109,0.7)
     .twig
-      width: 305px
+      width: 495px
       position: absolute
-      top: 287px
-      right: 282px
-      transform: rotate(-28deg)
-
+      top: 397px
+      right: 440px
+      transform: rotate(-27deg)
 
 
 
