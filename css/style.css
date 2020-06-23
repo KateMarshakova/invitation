@@ -22,6 +22,7 @@
   font-size: 15px;
   writing-mode: tb-rl;
   letter-spacing: 6px;
+  transform: scale(-1);
 }
 .main .info .main-info {
   position: absolute;
