@@ -2,76 +2,90 @@
   font-family: "Denistina";
   src: url("../fonts/8591.ttf") format("truetype");
 }
-.main {
+.header {
   text-align: -webkit-center;
 }
-.main .info {
+.header .info {
   background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center;
   position: relative;
   height: 920px;
   width: 755px;
   left: 58px;
-  top: 220px;
+  top: 87px;
   box-shadow: -5px 8px 20px 9px rgba(109, 109, 109, 0.21);
 }
-.main .info .vertical-text {
+.header .info .vertical-text {
   position: absolute;
   top: 2em;
-  font-family: "Playfair Display", serif;
-  font-weight: 500;
-  font-size: 35px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 39px;
   writing-mode: vertical-lr;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
   transform: scale(-1);
   margin-left: 23px;
 }
-.main .info .main-info {
+.header .info .main-info {
   position: absolute;
   bottom: 2.5em;
   text-align: end;
   right: 30px;
 }
-.main .info .main-info h1 {
+.header .info .main-info .text {
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #696969;
+  font-size: 33px;
+}
+.header .info .main-info h1 {
   font-family: "Denistina";
   font-size: 110px;
   margin-bottom: 18px;
   font-weight: bold;
   padding-right: 17px;
+  line-height: 75px;
 }
-.main .info .main-info .main-text .date {
-  font-family: "Playfair Display", serif;
+.header .info .main-info .date {
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 23px;
+  color: #696969;
 }
-.main .info .main-info .main-text p {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  line-height: 40px;
-  margin-top: 0;
-  font-size: 32px;
-}
-.main .info .main-info .signature {
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
-  font-weight: 400;
-}
-.main .info .main-info .signature span {
-  font-weight: 500;
-}
-.main .info .bg {
+.header .info .bg {
   position: absolute;
   z-index: -1;
   right: 65px;
   top: 65px;
-  box-shadow: -9px 14px 29px -9px rgba(109, 109, 109, 0.7);
+  box-shadow: --9px 14px 29px -9px rgba(109, 109, 109, 0.7);
 }
-.main .info .twig {
-  width: 535px;
+.header .info .twig {
+  width: 561px;
   position: absolute;
-  top: 435px;
-  right: 436px;
+  top: 398px;
+  right: 435px;
   transform: rotate(-29deg);
+}
+
+.invited {
+  margin: 332px 34px 34px;
+}
+.invited .info {
+  text-align: center;
+}
+.invited .info .name h2 {
+  font-family: "Denistina";
+  font-size: 72px;
+}
+.invited .info .name p {
+  font-size: 36px;
+  color: #696969;
+}
+.invited .photo {
+  position: relative;
+  height: 1010px;
+  width: 400px;
+  box-shadow: -9px 14px 29px -9px rgba(109, 109, 109, 0.7);
 }
 
 /*# sourceMappingURL=style.css.map */

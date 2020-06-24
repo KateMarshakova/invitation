@@ -1,4 +1,7 @@
-$font-text: 'Playfair Display', serif
+$font-text2: 'Playfair Display', serif
+$font-text: 'PT Sans Narrow', sans-serif
+$text-color: #696969
+$shadow-wood: -9px 14px 29px -9px rgba(109,109,109,0.7)
 
 @font-face
   font-family: 'Denistina'
@@ -6,7 +9,7 @@ $font-text: 'Playfair Display', serif
 
 $font-name: 'Denistina'
 
-.main
+.header
   text-align: -webkit-center
   .info
     background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center
@@ -14,16 +17,16 @@ $font-name: 'Denistina'
     height: 920px
     width: 755px
     left: 58px
-    top: 220px
+    top: 87px
     box-shadow: -5px 8px 20px 9px rgba(109,109,109,0.21)
     .vertical-text
       position: absolute
       top: 2em
       font-family: $font-text
-      font-weight: 500
-      font-size: 35px
+      font-weight: 400
+      font-size: 39px
       writing-mode: vertical-lr
-      letter-spacing: 6px
+      letter-spacing: 8px
       transform: scale(-1)
       margin-left: 23px
     .main-info
@@ -31,42 +34,53 @@ $font-name: 'Denistina'
       bottom: 2.5em
       text-align: end
       right: 30px
+      .text
+        text-transform: uppercase
+        font-family: $font-text
+        color: $text-color
+        font-size: 33px
       h1
         font-family: $font-name
         font-size: 110px
         margin-bottom: 18px
         font-weight: bold
         padding-right: 17px
-      .main-text
-        .date
+        line-height: 75px
+      .date
           font-family: $font-text
           font-size: 50px
-          font-weight: 600
-          margin-bottom: 23px
-        p
-          font-family: $font-text
           font-weight: 400
-          line-height: 40px
-          margin-top: 0
-          font-size: 32px
-      .signature
-        font-family: $font-text
-        font-size: 30px
-        font-weight: 400
-        span
-          font-weight: 500
+          margin-bottom: 23px
+          color: $text-color
     .bg
       position: absolute
       z-index: -1
       right: 65px
       top: 65px
-      box-shadow: -9px 14px 29px -9px rgba(109,109,109,0.7)
+      box-shadow: -$shadow-wood
     .twig
-      width: 535px
+      width: 561px
       position: absolute
-      top: 435px
-      right: 436px
+      top: 398px
+      right: 435px
       transform: rotate(-29deg)
+.invited
+  margin: 332px 34px 34px
+  .info
+    text-align: center
+    .name
+      h2
+        font-family: $font-name
+        font-size: 72px
+      p
+        font-size: 36px
+        color: $text-color
+
+  .photo
+    position: relative
+    height: 1010px
+    width: 400px
+    box-shadow: $shadow-wood
 
 
 
