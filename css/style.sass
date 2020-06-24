@@ -57,7 +57,7 @@ $font-name: 'Denistina'
       z-index: -1
       right: 65px
       top: 65px
-      box-shadow: -$shadow-wood
+      box-shadow: $shadow-wood
     .twig
       width: 561px
       position: absolute
@@ -75,12 +75,32 @@ $font-name: 'Denistina'
       p
         font-size: 36px
         color: $text-color
+        font-family: $font-text
+    .plan
+      h2
+        font-size: 72px
+        font-family: $font-name
+        font-weight: 400
+        margin-bottom: 0
+      .time
+        font-size: 36px
+        font-family: $font-text
+        color: $text-color
+        text-align: left
+        line-height: 53px
+        span
+          padding-left: 258px
+          padding-right: 20px
+      .important
+        font-size: 36px
+        font-family: $font-text
+  .instagram
+    img
+      position: relative
+      height: 350px
+      width: 350px
+      box-shadow: $shadow-wood
 
-  .photo
-    position: relative
-    height: 1010px
-    width: 400px
-    box-shadow: $shadow-wood
 
 
 
