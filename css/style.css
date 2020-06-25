@@ -75,40 +75,45 @@
 }
 .invite .info .title h2 {
   font-family: "Denistina";
-  font-size: 72px;
+  font-size: 80px;
 }
 .invite .info .title p {
-  font-size: 36px;
+  font-size: 44px;
   color: #696969;
   font-family: "PT Sans Narrow", sans-serif;
 }
 .invite .info .plan h3 {
-  font-size: 80px;
+  font-size: 88px;
   font-family: "Denistina";
   font-weight: 400;
   margin-bottom: 0;
 }
 .invite .info .plan .time {
-  font-size: 36px;
+  font-size: 44px;
   font-family: "PT Sans Narrow", sans-serif;
   color: #696969;
+  line-height: 64px;
+}
+.invite .info .plan .time i {
+  color: black;
+  padding-right: 15px;
 }
 .invite .info .plan .time span {
   padding-right: 20px;
   color: black;
 }
 .invite .info .plan .important {
-  font-size: 34px;
+  font-size: 40px;
   font-family: "PT Sans Narrow", sans-serif;
 }
 .invite .info .add h3 {
-  font-size: 80px;
+  font-size: 88px;
   font-family: "Denistina";
   font-weight: 400;
   margin-bottom: 0;
 }
 .invite .info .add p {
-  font-size: 36px;
+  font-size: 44px;
   font-family: "PT Sans Narrow", sans-serif;
   color: #696969;
 }
@@ -125,7 +130,7 @@
   padding-top: 194px;
 }
 .invite .instagram .text p {
-  font-size: 36px;
+  font-size: 40px;
   font-family: "PT Sans Narrow", sans-serif;
   color: #696969;
 }
@@ -143,7 +148,7 @@
   text-align: center;
 }
 .invite .footer h3 {
-  font-size: 80px;
+  font-size: 88px;
   font-family: "Denistina";
   font-weight: 400;
   margin-bottom: 0;
