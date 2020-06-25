@@ -115,7 +115,7 @@
 .invite .instagram {
   display: flex;
 }
-.invite .instagram .photo .inst-wood {
+.invite .instagram .photo {
   position: relative;
   height: 666px;
   width: 500px;
