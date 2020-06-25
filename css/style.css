@@ -116,7 +116,6 @@
   display: flex;
 }
 .invite .instagram .photo {
-  position: relative;
   height: 666px;
   width: 500px;
   box-shadow: -9px 14px 29px -9px rgba(109, 109, 109, 0.7);
