@@ -5,7 +5,7 @@
 .header {
   text-align: -webkit-center;
 }
-.header .info {
+.header .postcard {
   background: url("../images/c2425f2f08dbf33fd0714ceba8ab79b0.jpg") no-repeat center center;
   position: relative;
   height: 920px;
@@ -14,7 +14,7 @@
   top: 87px;
   box-shadow: -5px 8px 20px 9px rgba(109, 109, 109, 0.21);
 }
-.header .info .vertical-text {
+.header .postcard .vertical-text {
   position: absolute;
   top: 2em;
   font-family: "PT Sans Narrow", sans-serif;
@@ -25,19 +25,19 @@
   transform: scale(-1);
   margin-left: 23px;
 }
-.header .info .main-info {
+.header .postcard .main-info {
   position: absolute;
   bottom: 2.5em;
   text-align: end;
   right: 30px;
 }
-.header .info .main-info .text {
+.header .postcard .main-info .text {
   text-transform: uppercase;
   font-family: "PT Sans Narrow", sans-serif;
   color: #696969;
   font-size: 33px;
 }
-.header .info .main-info h1 {
+.header .postcard .main-info h1 {
   font-family: "Denistina";
   font-size: 110px;
   margin-bottom: 18px;
@@ -45,21 +45,21 @@
   padding-right: 17px;
   line-height: 75px;
 }
-.header .info .main-info .date {
+.header .postcard .main-info .date {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 23px;
   color: #696969;
 }
-.header .info .bg {
+.header .postcard .wood {
   position: absolute;
   z-index: -1;
   right: 65px;
   top: 65px;
   box-shadow: -9px 14px 29px -9px rgba(109, 109, 109, 0.7);
 }
-.header .info .twig {
+.header .postcard .twig {
   width: 561px;
   position: absolute;
   top: 398px;
@@ -67,47 +67,87 @@
   transform: rotate(-29deg);
 }
 
-.invited {
+.invite {
   margin: 332px 34px 34px;
 }
-.invited .info {
+.invite .info {
   text-align: center;
 }
-.invited .info .name h2 {
+.invite .info .title h2 {
   font-family: "Denistina";
   font-size: 72px;
 }
-.invited .info .name p {
+.invite .info .title p {
   font-size: 36px;
   color: #696969;
   font-family: "PT Sans Narrow", sans-serif;
 }
-.invited .info .plan h2 {
-  font-size: 72px;
+.invite .info .plan h3 {
+  font-size: 80px;
   font-family: "Denistina";
   font-weight: 400;
   margin-bottom: 0;
 }
-.invited .info .plan .time {
+.invite .info .plan .time {
   font-size: 36px;
   font-family: "PT Sans Narrow", sans-serif;
   color: #696969;
-  text-align: left;
-  line-height: 53px;
 }
-.invited .info .plan .time span {
-  padding-left: 258px;
+.invite .info .plan .time span {
   padding-right: 20px;
+  color: black;
 }
-.invited .info .plan .important {
-  font-size: 36px;
+.invite .info .plan .important {
+  font-size: 34px;
   font-family: "PT Sans Narrow", sans-serif;
 }
-.invited .instagram img {
+.invite .info .add h3 {
+  font-size: 80px;
+  font-family: "Denistina";
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.invite .info .add p {
+  font-size: 36px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #696969;
+}
+.invite .instagram {
+  display: flex;
+}
+.invite .instagram .photo .inst-wood {
   position: relative;
-  height: 350px;
-  width: 350px;
+  height: 666px;
+  width: 500px;
   box-shadow: -9px 14px 29px -9px rgba(109, 109, 109, 0.7);
+}
+.invite .instagram .text {
+  padding-left: 25px;
+  padding-top: 194px;
+}
+.invite .instagram .text p {
+  font-size: 36px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #696969;
+}
+.invite .instagram .text h4 {
+  text-transform: uppercase;
+  font-size: 39px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.invite .instagram .text h4 i {
+  padding-right: 15px;
+}
+.invite .footer {
+  text-align: center;
+}
+.invite .footer h3 {
+  font-size: 80px;
+  font-family: "Denistina";
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-var el = document.getElementById("Name");
+var el = document.getElementById("invitation");
 
 function fadeIn(el, time) {
     el.style.opacity = 0;
